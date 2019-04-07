@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dharani.entity.Topics;
@@ -19,5 +20,11 @@ public class TopicController {
 	public List<Topics> getTopics() {
 
 		return topicService.getTopics();
+	}
+	
+	@GetMapping(path = "/getTopics/{id}")
+	public Topics getTopicById(@PathVariable int id) {
+
+		return topicService.getTopicsById(id);
 	}
 }
