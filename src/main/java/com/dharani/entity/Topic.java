@@ -6,15 +6,19 @@ package com.dharani.entity;
  * @author dbhoi
  *
  */
-public class Topics {
+public class Topic {
 
 	private int id;
 	private String subject;
 	private String description;
+	
+	
+	public Topic() {
+		
+	}
 
-	public Topics(int id, String subject, String description) {
-		super();
-		this.id = id;
+	public Topic(int id, String subject, String description) {
+			this.id = id;
 		this.subject = subject;
 		this.description = description;
 	}
