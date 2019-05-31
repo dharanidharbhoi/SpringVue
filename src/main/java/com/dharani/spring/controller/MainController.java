@@ -1,4 +1,4 @@
-package com.dharani.spring.starter.controller;
+package com.dharani.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

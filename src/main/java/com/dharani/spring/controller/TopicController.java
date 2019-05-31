@@ -1,4 +1,4 @@
-package com.dharani.spring.starter.controller;
+package com.dharani.spring.controller;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class TopicController {
 
 	@GetMapping(path = "/topics")
 	public List<Topic> getTopics() {
-
+ 
 		return topicService.getTopics();
 	}
 
