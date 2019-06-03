@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dharani.entity.Topic;
-import com.dharani.spring.starter.service.TopicService;
+import com.dharani.spring.service.TopicService;
 
 @RestController
 public class TopicController {

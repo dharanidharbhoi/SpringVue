@@ -1,4 +1,4 @@
-package com.dharani.spring.starter.service;
+package com.dharani.spring.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
